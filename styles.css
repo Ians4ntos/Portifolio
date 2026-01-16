@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:beige
+}
+
+header {
+    background-color: brown;
+    width: 100%;
+}
+.foto__nome{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+}
+.nome{
+    padding-top: 58px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.caixa--imagem{
+  justify-content: right;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    padding-right: 20px;
+     padding-top: 20px;
+}
+#imagem_biobiografica{
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    border: 1px solid black;
+     object-fit: cover;
+     
+}
+.link__sobre__home{
+     display: flex;
+    justify-content: start;
+    color: black;
+    padding-left: 13px;
+    gap: 10px;
+    
+}
+.links_navegacao{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+.caixa--home{
+         display: flex;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.caixa-da-caixas{
+    display: flex;
+}
+.caixa__habilidades {
+     padding-bottom: 18px;
+}
