@@ -4,7 +4,11 @@
    
     <title>Minha Biografia</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <!-- Development version -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
      <header> 
@@ -24,7 +28,7 @@
         
         
             <nav class="link__sobre__home">
-                <a class="links_navegacao" href="./portifolio.html">Home</a>
+                <a class="links_navegacao" href="./portifolio.html">HOME</a>
                 <a class="links_navegacao" href="./sobre.html">SOBRE MIM</a>
             </nav>
     
@@ -35,29 +39,32 @@
     <div class="caixas-da-caixas">
         <div class="caixa__habilidades">
             <h2>Minhas Habilidades</h2>
-               <p>Capacidade de adaptação
-               Comprometimento e responsabilidade
+               <p> <span> Capacidade de adaptação</span> <br>
+               <span>Conhecimento básico em lógica </span> <br>
                <span>Curiosidade e interesse por tecnologia</span></p>
         </div>
         <div class="caixa__habilidades">
         <h2 >Meu endereço</h2>
         <p >
-            Avenida Josino Jose de Almeida, 288.
-            Bairro Augusto Franco
+            Avenida Josino Jose de Almeida, 288. <br>
+            Bairro Augusto Franco <br>
             Aracaju, Sergipe - 49030-000
         </p>
         </div>
         <div class="caixa__habilidades">
         <h2 >Redes socias </h2>
-        <a href="https://github.com/Ians4ntos" target="_blank"> github</a>
-        <a href="#"> instagram</a>
+        <a href="https://github.com/Ians4ntos" target="_blank"><i class="icones"  data-lucide="github"></i>  GITHUB</a> <br>
+        <a href="https://www.instagram.com/1ansantos/?next=%2F" target="_blank"> <i class="icones" data-lucide="instagram"></i> INSTAGRAM</a>
         
         </p>
         </div>
     </div>
     
 </main>
-   
+   <script src="https://unpkg.com/lucide@latest"></script>
+   <script>
+    lucide.createIcons();
+   </script>
     
 </body>
 <!--A tag <hr> cria uma linha horizontal visivel na pagina e pode ser usada para separar diferentes seçoes de conteúdo-->
