@@ -54,8 +54,7 @@ header {
 .links_navegacao{
     text-decoration: none;
     color: black;
-   
-    
+    font-size: 20px;
 }
 .caixa--home{
          display: flex;
@@ -102,3 +101,9 @@ header {
 
    
 }
+@media (max-width: 680px) {
+    .links_navegacao{
+        font-size: 40px;
+    }
+}
+
