@@ -3,7 +3,25 @@
     padding: 0%;
 }
 body{
-    background-color:beige
+    background-color: white;
+    color: black;
+    transition:0.3s ;
+}
+.dark {
+    background-color: #121212;
+    color: white
+}
+
+button {
+   display: block;
+    margin: 7px 38px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    float: right;
+    color: brown;
 }
 
 header {
@@ -48,7 +66,7 @@ header {
     justify-content: start;
     color: black;
     padding-left: 13px;
-    gap: 10px;
+    gap: 25px;
     
 }
 .links_navegacao{
@@ -106,4 +124,5 @@ header {
         font-size: 40px;
     }
 }
+
 
